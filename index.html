@@ -11,14 +11,24 @@
     <!-- headr design -->
     <header class="header">
         <a href="#" class="logo">Mohamed Refaat</a>
-        <div class="bx bx-menu" id="menu-icon"></div>
-        <nav class="navbar">
+        <div class="bx bx-menu" id="menu-icon">
+        </div>
+        <nav class="navbar" >
             <a href="#home" class="nav-item active" id="nav-home">Home</a>
             <a href="#about" class="nav-item" id="nav-about">About</a>
             <a href="#education" class="nav-item" id="nav-education">Education</a>
             <a href="#skills" class="nav-item" id="nav-skill">Skills</a>
+            <a href="#projects" class="nav-item" id="nav-projects">Projects</a>
         </nav>
     </header>
+    <ul id="menu-btn-collapse" class="d-none" >
+        <li><a href="#home" class="nav-item active" id="nav-home-collapse">Home</a></li>
+        <li><a href="#about" class="nav-item" id="nav-about-collapse">About</a></li>
+        <li><a href="#education" class="nav-item" id="nav-education-collapse">Education</a></li>
+        <li><a href="#skills" class="nav-item" id="nav-skill-collapse">Skills</a></li>
+        <li><a href="#projects" class="nav-item" id="nav-projects-collapse">Projects</a></li>
+
+    </ul>
     <!-- home section design -->
     <section id="home" class="home">
         <div class="home-content">
@@ -30,12 +40,13 @@
                 <a href="#" class="btn" id="btn-hire-me">Hire Me</a>
                 <a href="#" class="btn">Let's Talk</a>
             </div> -->
-            <img src="./image/MohamedRefaat-removebg-preview.jpg" alt="" id="Mohamed-image" >
+            <!-- <img src="./image/MohamedRefaat-removebg-preview.jpg" alt="" id="Mohamed-image" > -->
         </div>
         <div class="home-sci">
-            <a href="#"><i class='bx bxl-gmail'></i></a>
-            <a href="#"><i class='bx bxl-linkedin'></i></a>
-            <a href="#"><i class='bx bxl-github'></i></a>
+            <a href="mailto:mohamed.refaat.99380@gmail.com" ><i class='bx bxl-gmail'></i></a>
+            <a href="https://www.linkedin.com/in/mohamed-refaat-1162bb261/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://github.com/Mohamed-Refaat-1995" target="_blank"><i class='bx bxl-github'></i></a>
+            <a href="tel:+201024051456" ><i class='bx bx-phone'></i></a>
         </div>
     </section>
     <!-- about me section design -->
@@ -50,8 +61,8 @@
             <p>I'm Mohamed Refaat khalifa I graduated from faculty of engineering Sohag university - Egypt.
                 <br>
                  After graduation I joined Information Technology Institute (ITI) , there I studied many of courses in web development and business intelligence (BI),
-                 and practised many of projects with
-                  asp .net tchnologies.
+                 and practiced many of projects with
+                  asp .net technologies.
             </p>
         </div>
     </section>
@@ -181,6 +192,24 @@
 
             </div>
         </div>
+    </section>
+    <section class="projects" id="projects">
+        <h2 class="heading">My <span>Works</span></h2>
+        <div class="projects-row">
+            <div class="projects-column">
+                <img src="image/car-washing.jpg"   class="project-imgage" alt="">
+                <h3 class="project-name">Project Name: <span style="color: blue;">Car Wash</span></h3>
+                <h3 class="project-technology">MVC +Signal R</h3>
+                <a href="https://github.com/Mohamed-Refaat-1995/car-wash-agency.git" target="_blank" class="project-github-btn" >Go To GitHub</a>
+            </div>
+            <div class="projects-column" >
+                <img src="image/e-commerce (1).png"  class="project-imgage" alt="">
+                <h3 class="project-name">Project Name: <span style="color: blue;">E-commerce</span></h3>
+                <h3 class="project-technology">Web Api + Angular +Signal R</h3>
+                <a href="https://github.com/youstina123/Amazon_AngularProject.git" target="_blank" class="project-github-btn" >Go To GitHub</a>
+            </div>
+        </div>
+
     </section>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="js/main.js"></script>
